@@ -195,6 +195,7 @@ namespace RightSignature
             string guidsString = "";
             foreach (string guid in guids) {
                 guidsString += guid;
+                guidsString += ",";
             }
 
             // XML body to POST to RightSignature API
